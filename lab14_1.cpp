@@ -14,12 +14,12 @@ int main(){
 	cout<<"b = "<<b<<endl;
     cout<<"c = "<<c<<endl;
 	cout<<"x = "<<x<<endl;
-	cout<<"y = "<<y<<endl;
+	cout<<"y = "<<(int *)y<<endl;
 	cout<<"z = "<<z<<endl<<"\n";
 
 	cout<<"&a = "<<&a<<endl;
-	cout<<"&b = "<<&b<<endl;
-    cout<<"&c = "<<&c<<endl;
+	cout<<"&b = "<<(int *)&b<<endl;
+    cout<<"&c = "<<(int *)&c<<endl;
 	cout<<"&x = "<<&x<<endl;
 	cout<<"&y = "<<&y<<endl;
 	cout<<"&z = "<<&z<<endl<<"\n";
@@ -30,7 +30,7 @@ int main(){
 	cout<<"b = "<<b<<endl;
     cout<<"c = "<<c<<endl;
 	cout<<"x = "<<x<<endl;
-	cout<<"y = "<<y<<endl;
+	cout<<"y = "<<(int *)y<<endl;
 	cout<<"z = "<<z<<endl<<"\n";
 
 	*y = 'W';
@@ -39,7 +39,7 @@ int main(){
 	cout<<"b = "<<b<<endl;
     cout<<"c = "<<c<<endl;
 	cout<<"x = "<<x<<endl;
-	cout<<"y = "<<y<<endl;
+	cout<<"y = "<<(int *)y<<endl;
 	cout<<"z = "<<z<<endl<<"\n";
 
 	*x = 6;
@@ -48,7 +48,7 @@ int main(){
 	cout<<"b = "<<b<<endl;
     cout<<"c = "<<c<<endl;
 	cout<<"x = "<<x<<endl;
-	cout<<"y = "<<y<<endl;
+	cout<<"y = "<<(int *)y<<endl;
 	cout<<"z = "<<z<<endl<<"\n";
 
 	**z = 7;
@@ -57,7 +57,7 @@ int main(){
 	cout<<"b = "<<b<<endl;
     cout<<"c = "<<c<<endl;
 	cout<<"x = "<<x<<endl;
-	cout<<"y = "<<y<<endl;
+	cout<<"y = "<<(int *)y<<endl;
 	cout<<"z = "<<z<<endl<<"\n";
 
 
